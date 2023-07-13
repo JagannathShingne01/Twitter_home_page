@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut" type="image/x-icon" href="/img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Twitter Clone</title>
+  </head>
+  <body>
+    <header>
+      <aside>
+        <a href="#" class="logo"><i class="fab fa-twitter"></i></a>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-hashtag"></i>Explore</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-bell"></i>Notification</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-message"></i>Message</a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-sharp fa-solid fa-bookmark"></i>Bookmark</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-list-dropdown"></i>list</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i>Profile</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-bars"></i>More</a>
+          </li>
+        </ul>
+        <button>Tweet</button>
+      </aside>
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <div class="search_bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search on Twitter....." />
+          </div>
+          <div class="user">
+            <h6>Hey,JS!</h6>
+            <img src="img/admin.jpeg" alt="no image" />
+          </div>
+        </nav>
+        <div class="profile_post_follow_bx">
+          <div class="profile_box">
+            <div class="profile_card">
+              <img src="icon/bluetick.png" alt="" class="blue_tick_pc" />
+              <img src="img/admin.jpeg" alt="" class="profile_img" />
+              <h5>Jagannath Shingne</h5>
+              <h6>@mr.shingne</h6>
+              <address>
+                <a href="#">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Mumbai,City
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-earth-asia"></i>
+                </a>
+              </address>
+              <p>Devloper Photography focued on travel and nature content</p>
+              <div class="data">
+                <div class="data_card">
+                  <p>Tweets</p>
+                  <h4>21</h4>
+                </div>
+                <div class="data_card">
+                  <p>Followers</p>
+                  <h4>11k</h4>
+                </div>
+                <div class="data_card">
+                  <p>Following</p>
+                  <h4>1</h4>
+                </div>
+              </div>
+            </div>
+            <div class="activity_bx">
+              <div class="activity_card">
+                <i class="fa-solid fa-eye"></i>
+                <h6>Activity</h6>
+              </div>
+              <div class="activity_card">
+                <i class="fa-solid fa-bolt"></i>
+                <h6>Moments</h6>
+              </div>
+              <div class="activity_card">
+                <i class="fa-solid fa-user-group"></i>
+                <h6>Friends</h6>
+              </div>
+              <div class="activity_card">
+                <i class="fa-solid fa-gear"></i>
+                <h6>Edit Profile</h6>
+              </div>
+            </div>
+          </div>
+          <div class="post_follow_bx">
+            <div class="post">
+              <nav>
+                <ul>
+                  <li><a href="#">Tweet</a></li>
+                  <li><a href="#">Tweet & Followers</a></li>
+                  <li><a href="#">Media</a></li>
+                  <li><a href="#">Likes</a></li>
+                </ul>
+                <i class="fa-solid fa-ellipsis"></i>
+              </nav>
+              <div class="post_main_bx">
+                <div class="post_card_bx">
+                  <div class="post_profile">
+                    <img src="./img/admin.jpeg" alt="" srcset="" />
+                  </div>
+                  <div class="content">
+                    <h6 class="retweet">
+                      <i class="fa-solid fa-repeat"></i> RONALDO TWEETED
+                    </h6>
+                    <div class="user_name_time">
+                      <h5>
+                        Jagannath Shingne
+                        <img src="./icon/bluetick.png" alt="" srcset="" />
+                        <p>@mr.shingne</p>
+                      </h5>
+                      <h6><i class="fa-duotone fa-timer"></i>25mins</h6>
+                    </div>
+                    <h3>Very good words....</h3>
+                    <div class="retweet_content">
+                      <div class="user_name_time">
+                        <h5>
+                          <img src="./img/user2.jpg" alt="" /> Cristiano Ronaldo
+                          <p>@Ronaldo</p>
+                        </h5>
+                        <h6><i class="fa-duotone fa-timer"></i>1 hour</h6>
+                      </div>
+                      <h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestiae vel corporis assumenda voluptates,
+                      </h3>
+                    </div>
+                    <div class="tweet_card_soical_data">
+                      <div class="tweet_soical_card">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1.2k</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>3k</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-solid fa-retweet"></i>
+                        <span>500</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-sharp fa-regular fa-share"></i>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="post_card_bx">
+                  <div class="post_profile">
+                    <img src="./img/admin.jpeg" alt="" srcset="" />
+                  </div>
+                  <div class="content">
+                    <div class="user_name_time">
+                      <h5>
+                        Jagannath Shingne
+                        <img src="./icon/bluetick.png" alt="" srcset="" />
+                        <p>@mr.shingne</p>
+                      </h5>
+                      <h6><i class="fa-duotone fa-timer"></i>2 hours</h6>
+                    </div>
+                    <h3>Today on Diwali, Jaipur is decorated like a bride.</h3>
+                    <div class="image_post_bx">
+                      <img src="./img/img1.jpg" alt="" srcset="" />
+                      <img src="./img/img2.webp" alt="" srcset="" />
+                      <img src="./img/img3.jpg" alt="" srcset="" />
+                    </div>
+                    <div class="tweet_card_soical_data">
+                      <div class="tweet_soical_card">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>128</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>283</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-solid fa-retweet"></i>
+                        <span>56</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-sharp fa-regular fa-share"></i>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post_card_bx">
+                  <div class="post_profile">
+                    <img src="./img/admin.jpeg" alt="" srcset="" />
+                  </div>
+                  <div class="content">
+                    <div class="user_name_time">
+                      <h5>
+                        Jagannath Shingne
+                        <img src="./icon/bluetick.png" alt="" />
+                        <p>@mr.shingne</p>
+                      </h5>
+                      <h6><i class="fa-duotone fa-timer"></i>2 hours</h6>
+                    </div>
+                    <h3>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Eligendi aut quae quod similique laborum facere minus
+                      consequuntur asperiores reprehenderit repellat modi a sed
+                      vitae fuga, ea voluptates, delectus ducimus. Vitae?
+                    </h3>
+                    <div class="tweet_card_soical_data">
+                      <div class="tweet_soical_card">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>35</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>500</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-solid fa-retweet"></i>
+                        <span>43</span>
+                      </div>
+                      <div class="tweet_soical_card">
+                        <i class="fa-sharp fa-regular fa-share"></i>
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="follow_bx">
+              <div class="trends_bx">
+                <nav>
+                  <h6>Trends for you</h6>
+                  <i class="fa-solid fa-gear"></i>
+                </nav>
+                <div class="trends">
+                    <div class="rate">
+                        <li><a href="#">#coldplay <br><P>937k Tweets</P></br></a><i class="fa-solid fa-chevron-down"></i></li>
+                        <div class="intrest">
+                          <button class="smile"><i class="fa-solid fa-face-smile"></i>Intrested</button>
+                          <button class="smile"><i class="fa-solid fa-face-frown-slight"></i>Not Intrested</button>
+                        </div>
+                    </div>
+                    <div class="rate">
+                      <li><a href="#">#virat_kholi <br><P>900k Tweets</P></br></a><i class="fa-solid fa-chevron-down"></i></li>
+                      <div class="intrest">
+                        <button class="smile"><i class="fa-solid fa-face-smile"></i>Intrested</button>
+                        <button class="smile"><i class="fa-solid fa-face-frown-slight"></i>Not Intrested</button>
+                      </div>
+                    </div>
+                  <div class="rate">
+                    <li><a href="#">#gautam_gambhir<br><P>500k Tweets</P></br></a><i class="fa-solid fa-chevron-down"></i></li>
+                    <div class="intrest">
+                      <button class="smile"><i class="fa-solid fa-face-smile"></i>Intrested</button>
+                      <button class="smile"><i class="fa-solid fa-face-frown-slight"></i>Not Intrested</button>
+                    </div>
+                  </div>
+                  <div class="rate">
+                  <li><a href="#">#King_Kholi<br><P>606k Tweets</P></br></a><i class="fa-solid fa-chevron-down"></i></li>
+                  <div class="intrest">
+                    <button class="smile"><i class="fa-solid fa-face-smile"></i>Intrested</button>
+                    <button class="smile"><i class="fa-solid fa-face-frown-slight"></i>Not Intrested</button>
+                    </div>
+                  </div>
+                  <button class="see_more">See More</button>
+                </div>
+              </div>
+              <div class="recommended">
+                <nav>
+                  <h6>You should Follow</h6>
+                  <i class="fa-regular fa-rotate-right"></i>
+                </nav>
+                <div class="follow_bx">
+                  <div class="profile_bx">
+                    <img src="img/user1.jpg" alt="" class="follow_profile">
+                    <div class="user_name">
+                      <div class="user_name_follow"><h6>MS DHONI</h6><img src="icon/bluetick.png" alt=""></div>
+                      <p>@msdhoni</p>
+                    </div>
+                  </div>
+                  <button>Follow</button>
+                </div>
+                <div class="follow_bx">
+                  <div class="profile_bx">
+                    <img src="img/user3.jpg" alt="" class="follow_profile">
+                    <div class="user_name">
+                      <div class="user_name_follow"><h6>Virat Kholi</h6><img src="icon/bluetick.png" alt=""></div>
+                      <p>@viratkohli18</p>
+                    </div>
+                  </div>
+                  <button>Follow</button>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </header>
+    <script src="app.js"></script>
+  </body>
+</html>
